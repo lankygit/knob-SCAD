@@ -1,30 +1,32 @@
+// From DefProc on GitHub
+// D Shaft knob for Dell keyboard
 /* [Design Variables] */
 //in mm
-height = 20;
+height = 10;
 //in mm (set to measured value, clearance is added)
 shaft_diameter =  6.1;
 //in mm (set to measured value, clearance is added)
 D_width = 4.7;
 //in mm
-outer_diameter = 36;
+outer_diameter = 18;
 //in mm
 wall_thickness = 3;
 //in mm
-inner_diameter = 14;
+inner_diameter = 9;
 //in mm
-shaft_length = 11;
+shaft_length = 5;
 //in mm
-plunge_depth = 3;
+plunge_depth = 2;
 //in mm
-clearance_height = 8;
+clearance_height = 5;
 
 /* [Cosmetic Settings] */
-no_sides =9;
+no_sides =16;
 //in mm (0 for no chamfer)
 top_chamfer=1.5;
 
 /* [Zero Pointer] */
-with_pointer = "yes"; // [yes,no]
+with_pointer = "no"; // [yes,no]
 //in mm
 point_size = 5;
 //degrees clockwise from the flat side
@@ -32,7 +34,7 @@ point_angle = 90;
 
 /* [Additional Features] */
 extra_feature="scollops"; // [none,scollops,taps,cutaway]
-number_of_features=3;
+number_of_features=0;
 //degrees
 offset_angle=-30;
 
